@@ -64,6 +64,12 @@ Text2SQL is a RESTful API that converts natural language queries into SQL statem
    }
    ```
 
+## Authentication and Rate Limiting
+
+- Each user can make up to 5 requests without authentication.
+- After 5 requests, an API key is required in the `x-api-key` header.
+
+
 ## Available Scripts
 
 - `npm run dev`: Starts the server in development mode with automatic reload.
